@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Piazzolla:wght@200;300;400;900&family=Poppins:wght@400;600;800&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(252, 202, 167);
+    font-family: 'Libre Baskerville', serif;
+    background-image:
+    linear-gradient( rgba(126, 129, 146, 0.6), rgba(163, 77, 139, 0.5)),
+    url('https://cdn.pixabay.com/photo/2020/03/16/16/29/virus-4937553__340.jpg');
+    background-size: cover;
+}
+.wrapper .header{
+    width: 100%;
+    height: 50px;
+    background: #7587e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.cards_wrap{
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    
+}
+
+.cards_wrap .card_item{
+    padding: 15px 25px;
+    width: 40%;
+}
+.card_inner{
+    background: rgb(235, 229, 229);
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 13px;
+    min-width: 225px;
+    min-height: 250px;
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+    
+}
+.card_inner h3{
+   font-size: 30px;
+   padding: 40px;
+}
+
+@media screen and (max-width:1024px){
+    .cards_wrap .card_item{
+        width: 33%;
+    }
+
+} 
+@media screen and (max-width:768px){
+    .cards_wrap .card_item{
+        width: 50%;
+    }
+
+} 
+
+@media screen and (max-width:568px){
+    .cards_wrap .card_item{
+        width: 100%;
+    }
+
+} 
+@media screen and (max-width:300px){
+    .cards_wrap .card_item{
+        width: 100%;
+    }
+
+} 
