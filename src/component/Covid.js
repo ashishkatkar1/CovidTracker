@@ -22,9 +22,10 @@ const Covid=()=>{
     },[]);
    return(
        <div>
-          <div className="wrapper">
-        <div className="header">LIVE COVID TRACKER INDIA</div>
-          <div className="cards_wrap">
+         <div className="header"><h1>LIVE COVID TRACKER INDIA</h1>
+         </div>
+            <div className="wrapper">
+            <div className="cards_wrap">
               <div className="card_item">
                 <div className="card_inner">
                     <h1>Total Recovered</h1>
